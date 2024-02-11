@@ -1,0 +1,19 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.AspNetCore.Components.WebAssembly.Http
+@using Microsoft.JSInterop
+@using Client
+@using Client.Layout
+
+@using BaseLibrary.DTOs
+@using ClientLibrary.Helpers
+@using ClientLibrary.Services.Contracts
+@using Microsoft.AspNetCore.Components.Authorization
+@inject CustomAuthenticationStateProvider AuthStateProvider
+@inject NavigationManager NavManager
+@inject IUserAccountService accountService
+ 
